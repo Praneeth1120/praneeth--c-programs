@@ -9,20 +9,20 @@ main()
 	d = ((b*b)-(4*a*c));
 	if(d>0)
 	{
-		root1 = ((-b+sqrt(d))/2*a);
-		root2 = ((-b-sqrt(d))/2*a);
+		root1 = ((-b+sqrt(d))/(2*a));
+		root2 = ((-b-sqrt(d))/(2*a));
 		printf("The roots are Real and distinct %f %f",root1,root2);
 	}
 	else if(d<0)
 	{
-		root1 = ((-b+sqrt(d))/2*a);
-		root2 = ((-b-sqrt(d))/2*a);
+		root1 = ((-b+sqrt(d))/(2*a));
+		root2 = ((-b-sqrt(d))/(2*a));
 		printf("The roots are imaginary %f %f",root1,root2);
 	}
 	else if(d==0)
 	{
-		root1 = ((-b+sqrt(d))/2*a);
-		root2 = ((-b-sqrt(d))/2*a);
+		root1 = ((-b+sqrt(d))/(2*a));
+		root2 = ((-b-sqrt(d))/(2*a));
 		printf("The roots are real and Equal %f %f",root1,root2);
 	}
 }
